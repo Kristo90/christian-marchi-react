@@ -15,7 +15,7 @@ export const Paginas = () => {
             <Routes>
                 <Route path="/" element={<Inicio />} />
                 <Route path="/productos" element={<ProductosLista />} />
-                <Route path="/productos/:id" element={<ProductoDetalles />} />
+                <Route path="/producto/id" element={<ProductoDetalles />} />
             </Routes>
         </section>
 

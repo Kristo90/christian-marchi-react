@@ -1,7 +1,6 @@
 import React, {useContext} from "react";
 import { Link } from "react-router-dom";
 import { DataContext } from "../../context/Dataprovider";
-import "../../context/Data";
 
 
 export const ProductoItem = ({
@@ -17,7 +16,7 @@ export const ProductoItem = ({
 
     return (
         <div className="producto">
-            <Link to={'/producto/${id}'}>
+            <Link to={`/Producto/${id}`}>
                 <div className="producto__img">
                     <img src={image} alt={title}></img>
                 </div>
@@ -31,7 +30,7 @@ export const ProductoItem = ({
                 <button className="btn" onClick={() => addCarrito(id)}>
                     Añadir al carrito
                 </button>
-                <Link to={'/producto/${id}'} className="btn">Información</Link>
+                <Link to={`/producto/${id}`} className="btn">Información</Link>
             </div>
         </div>
     )
