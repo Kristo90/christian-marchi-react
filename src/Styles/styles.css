@@ -328,16 +328,15 @@ header .cart span {
 .carrito__footer .btn{
     display: inline-block;
     padding: .3rem .1rem;
-    font-size: 1.2rem;
-    background-color: #1a202c;
+    font-size: 1.2rem;    
     border: 0;
     outline: 0;
     cursor: pointer;    
 }
 
 .carrito__footer .btn:hover {
-    background-color: #1a202c;
-    color: white;
+    background-color: #96999623; 
+    color: black;
 }
 
 /* Productos detalles */
@@ -348,6 +347,10 @@ header .cart span {
     padding: 13rem 1rem 0 1rem;
     box-sizing: border-box;
 }
+
+
+/* Pagos */
+
 
 /* Media */
 @media only screen and (max-width: 600px) {

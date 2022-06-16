@@ -7,6 +7,8 @@ import { Inicio } from "./Inicio/index";
 import { ProductosLista } from "./Productos/index";
 // Importo Productos Detalles
 import { ProductoDetalles } from "./Productos/ProductoDetalles";
+// Importo Formulario
+import { Form } from "./Form/Form";
 
 
 export const Paginas = () => {
@@ -16,6 +18,7 @@ export const Paginas = () => {
                 <Route path="/" element={<Inicio />} />
                 <Route path="/productos" element={<ProductosLista />} />
                 <Route path="/producto/id" element={<ProductoDetalles />} />
+                <Route path="/form" element={<Form />} />
             </Routes>
         </section>
 
